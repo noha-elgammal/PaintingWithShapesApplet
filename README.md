@@ -71,16 +71,25 @@ ____________
 
 So this program allows users to:
 
-Select a shape type
-Select a color
-Select a border thickness
-Draw shapes either with a border or filled
-Erase all drawn shapes and clear the canvas
-Drag the mouse to dynamically create and update shapes
+- Select a shape type
+  
+- Select a color
+  
+- Select a border thickness
+ 
+- Draw shapes either with a border or filled
+  
+- Erase all drawn shapes and clear the canvas
+  
+- Drag the mouse to dynamically create and update shapes
 as they're drawn.
+
+________________________________
 
 The key parts are:
 
-Storing the drawn shapes in a list
-Creating new shapes based on the mouse position and current shape type
-Redrawing all stored shapes when needed
+- Storing the drawn shapes in a list
+
+- Creating new shapes based on the mouse position and current shape type
+  
+- Redrawing all stored shapes when needed
