@@ -15,7 +15,7 @@ The first few lines of the code contain import statements for various Java class
 
 The next few lines of the code define some constants and instance variables that will be used throughout the applet. The constants define the default size of the canvas, the minimum and maximum border thickness values, and the size of the shapes that can be drawn. The instance variables include various buttons, checkboxes, and controls that will be displayed in the applet, as well as a List of Shape objects that will store the shapes drawn by the user.
 
-The init() method
+3. The init() method
 
 The init() method is called when the applet is first created. In this method, the layout of the applet is set to a BorderLayout, which means that components can be added to the north, south, east, west, or center of the applet.
 
@@ -43,8 +43,10 @@ The MouseListener interface is used to handle mouse clicks, releases, and drags.
 
 The MouseMotionListener interface is used to handle mouse movements and drags. When the mouse is moved or dragged, the temporary shape is updated to reflect the current mouse position.
 
+__________________
 
-Here's what's happening in the code:
+
+To sum up, here's what's happening in the code:
 
 
 When a shape button is clicked, it sets the currentShape to be drawn.
@@ -64,6 +66,8 @@ The shapes are drawn either with a border or filled, based on the checkboxes.
 The Choice widget allows setting the border thickness.
 
 The shapes that have been drawn are stored in the shapes list, and redrawn when needed.
+
+____________
 
 So this program allows users to:
 
